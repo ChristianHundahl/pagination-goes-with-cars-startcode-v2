@@ -14,6 +14,7 @@
 
   <!-- <link rel="stylesheet" href="styles/menu-vertical.css" /> -->
   <link rel="stylesheet" href="styles/menu-horizontal.css" />
+  <link rel="stylesheet" href="styles/paginator.css" />
   <!-- <link rel="stylesheet" href="styles/style.css" /> -->
   <title>Document</title>
   <script type="module" src="index.js"></script>
@@ -52,5 +53,18 @@
   <h2>Pagination Demo</h2>
   <p>Add an empty table here, instead of the div below</p>
   <div id="car_data"></div>
+  <table id="car_data_table">
+    <thead>
+    <tr>
+      <th id="id-header">Id</th>
+      <th id="year-header">Year</th>
+      <th id="make-header">Make</th>
+      <th id="model-header">Model</th>
+      <th id="price-header">Price</th>
+    </tr>
+    </thead>
+    <tbody id="car-table-body">
+    </tbody>
+  </table>
   <div id="pagination_control"></div>
 </template>
